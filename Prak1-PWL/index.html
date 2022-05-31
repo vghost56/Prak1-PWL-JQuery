@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PRAK-1-PWL-119140194</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="index.js"></script>
+        <link href="index.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <div id="header">
+                <h4>Pemesanan Produk</h4>
+            </div>
+            <hr>
+        </header>
+        
+        <div class="container">
+            <div class="form">
+                <div class="table">
+                    <h3>Data</h3>
+                    <div class="form-nama">
+                        <label>Nama</label>
+                        <input type="text" id="nama-pembeli" placeholder="Inputkan Nama" style="width: 100%;">  
+                    </div>
+                    
+                    <h4>Pilih produk</h4>
+
+                    <div class="form-prod">
+                        <div class="left">
+                        <label for="barang" style="padding-left: 5px, top = 5px;">Produk</label><br>
+                        <select id="barang" required  >
+                            <option value="0">Pilih produk</option>
+                            <option value="Jet Tempur">Jet Tempur</option>
+                            <option value="Nuklir Hiroshima">Nuklir Hiroshima</option>
+                            <option value="Infinity Stone">Infinity Stone</option>
+                            <option value="Burj Khalifa">Burj Khalifa</option>
+                            <option value="Rudal Hipersonik">Rudal Hipersonik</option>
+                        </select>
+                        <br>
+                        </div>
+
+                        <div class="left cont-3">
+                        <label for="jumlah" style="padding-left: 5px, top = 5px;">Jumlah</label><br>
+                        <input type="number" id="jumlah" class="jumlah" required><br>
+                        </div>
+                        
+                        <button id="btn-tambah">Tambah Produk</button>
+                        <button id="btn-pesan">Pesan Produk</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
